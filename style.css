@@ -41,6 +41,8 @@ body {
     height: 240px;
     overflow: hidden;
     object-fit: cover;
+    margin-top: 0;
+    margin-bottom: -9px;
 }
 
 .image-container img {
@@ -58,9 +60,11 @@ body {
 
 .meta-container .title {
     padding: 0;
-    margin: 10px 0;
-    font-size: 22px;
+    margin: 1px 0;
+    font-size: 24px;
+    font-family: lobster;
     color: #0076b6;
+    
 }
 
 .meta-container .desc {
