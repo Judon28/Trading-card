@@ -24,7 +24,7 @@ body {
     width: 300px;
     height: 520px;
     overflow: hidden;
-    background: #fff;
+    background: rgb(179, 197, 202);
     border-radius: 5px;
     box-shadow: 0 0 3px 0 #00000073;
     transition: all 0.3s;
@@ -54,16 +54,18 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 150px;
+    height: 140px;
     padding: 10px 20px;
 }
 
 .meta-container .title {
     padding: 0;
     margin: 1px 0;
-    font-size: 24px;
+    font-size: 26px;
     font-family: lobster;
     color: #0076b6;
+    font-style: italic;
+    font-weight: bold;
     
 }
 
@@ -72,6 +74,7 @@ body {
     text-align: center;
     color: #373737;
     overflow: hidden;
+    margin-bottom: 1px;
 }
 
 .features {
@@ -94,6 +97,7 @@ body {
     padding: 10px 20px;
     font-size: 14px;
     padding-bottom: 25px;
+    
 }
 
 @media screen and (max-width:1124px){
