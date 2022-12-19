@@ -61,7 +61,7 @@ body {
 .meta-container .title {
     padding: 0;
     margin: 1px 0;
-    font-size: 26px;
+    font-size: 24px;
     font-family: lobster;
     color: #0076b6;
     font-style: italic;
@@ -75,6 +75,7 @@ body {
     color: #373737;
     overflow: hidden;
     margin-bottom: 1px;
+    margin-top: auto;
 }
 
 .features {
